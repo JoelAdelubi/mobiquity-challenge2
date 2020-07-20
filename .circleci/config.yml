@@ -13,8 +13,6 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            cd /home/circleci/
-            cd /project/
             ls
             ./manage.py test
           name: Test
