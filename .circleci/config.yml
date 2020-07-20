@@ -14,7 +14,9 @@ jobs:
       - run:
           command: |
             pwd
-            cd /tests/
+            cd /home/
+            pwd
+            ls
             ./manage.py test
           name: Test
 
