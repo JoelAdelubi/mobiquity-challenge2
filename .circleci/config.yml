@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            ls
+            cd /tests/
             ./manage.py test
           name: Test
 
