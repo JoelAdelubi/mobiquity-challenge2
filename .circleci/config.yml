@@ -10,7 +10,6 @@ jobs:
       - checkout
       - python/load-cache
       - python/install-deps
-      - pip install coverage
       - python/save-cache
       - run:
           command: |
