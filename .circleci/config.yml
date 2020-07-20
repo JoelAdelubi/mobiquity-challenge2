@@ -14,10 +14,8 @@ jobs:
       - run:
           command: |
             pwd
-            cd /home
-            ll -ls
-            cd /circleci
-            ll-ls
+            cd /home/circleci/
+            ls
             ./manage.py test
           name: Test
 
