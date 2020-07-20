@@ -14,9 +14,8 @@ jobs:
       - run:
           command: |
             pwd
-            ls
-            cd
-            ~/.manage.py test
+            cd /home/circleci/mobiquity-challenge2/
+            ./manage.py test
           name: Test
 
 workflows:
