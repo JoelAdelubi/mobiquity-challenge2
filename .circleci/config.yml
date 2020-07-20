@@ -12,7 +12,9 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: python3 -m pytest tests/test_commments.py
+          command: |
+            ls
+            python3 -m pytest tests/test_comments.py
           name: Test
 
 workflows:
