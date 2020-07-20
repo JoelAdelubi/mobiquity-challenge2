@@ -1,8 +1,6 @@
 import unittest
-import json
-import os
-from src.request_handler import RequestHandler
-from src.helpers import Helpers
+from tests.request_handler import RequestHandler
+from tests.helpers import Helpers
 
 endpoint1 = "https://jsonplaceholder.typicode.com/users/?username=Delphine"
 endpoint2 = "https://jsonplaceholder.typicode.com/comments?postId="
