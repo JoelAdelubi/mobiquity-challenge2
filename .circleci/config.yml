@@ -15,9 +15,9 @@ jobs:
           command: |
             pwd
             cd /home
-            ll
+            ll -ls
             cd /circleci
-            ll
+            ll-ls
             ./manage.py test
           name: Test
 
