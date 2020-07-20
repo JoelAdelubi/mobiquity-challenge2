@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            ./manage.py test
+            python3 -m pytest tests/test_comments.py
           name: Test
 
 workflows:
