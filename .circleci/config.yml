@@ -13,7 +13,6 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            ls
             python3 -m pytest tests/test_comments.py
           name: Test
 
