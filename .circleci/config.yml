@@ -12,10 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: |
-            pwd
-            cd mobiquity-challenge2
-            ./manage.py test
+          command: ./manage.py test
           name: Test
 
 workflows:
