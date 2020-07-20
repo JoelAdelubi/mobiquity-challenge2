@@ -14,8 +14,9 @@ jobs:
       - run:
           command: |
             pwd
-            cd /mobiquity-challenge2
-            python3 ./manage.py test
+            ls
+            cd
+            ~/.manage.py test
           name: Test
 
 workflows:
