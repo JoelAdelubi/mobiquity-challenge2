@@ -16,8 +16,8 @@ jobs:
             python3 -m pytest tests/test_comments.py
             python3 -m coverage run -m pytest tests/test_comments.py
             python3 -m coverage report -m
-            cd tests/htmlcov/
-            python3 -m coverage html           
+            python3 -m coverage html
+            cd tests/htmlcov/      
             
           name: Test
 
