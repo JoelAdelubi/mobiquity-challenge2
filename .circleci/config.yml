@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            cd /home/circleci/mobiquity-challenge2/
+            cd /home/circleci/
             ls
             ./manage.py test
           name: Test
