@@ -14,10 +14,10 @@ jobs:
       - run:
           command: |
             python3 -m pytest tests/test_comments.py
-            .coverage run -m pytest tests/test_comments.py
-            .coverage report -m
+            python3 coverage run -m pytest tests/test_comments.py
+            python3 coverage report -m
             cd tests/htmlcov/
-            .coverage html           
+            python3 coverage html           
             
           name: Test
 
